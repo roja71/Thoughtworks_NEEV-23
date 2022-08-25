@@ -1,0 +1,52 @@
+public class Main {
+	public static void main(String[] args) {
+		String day="";
+		String verse="a Partridge in a Pear Tree.";
+		String add="";
+		for(int i=1;i<=12;i++) {
+			
+			switch(i) {
+				case 1:day="First";
+				break;
+				case 2:day="Second";
+				add+="two Turtle Doves, ";
+				break;
+				case 3:day="Third";
+				add="three French Hens, "+add;
+				break;
+				case 4:day="Four";
+				add="four Calling Birds, "+add;
+				break;
+				case 5:day="Five";
+				add="five Gold Rings, "+add;
+				break;
+				case 6:day="Six";
+				add="six Geese-a-Laying, "+add;
+				break;
+				case 7:day="Seven";
+				add="seven Swans-a-Swimming, "+add;
+				break;
+				case 8:day="Eight";
+				add="eight Maids-a-Milking, "+add;
+				break;
+				case 9:day="Nine";
+				add="nine Ladies Dancing,"+add;
+				break;
+				case 10:day="Ten";
+				add="ten Lords-a-Leaping, "+add;
+				break;
+				case 11:day="Eleven";
+				add="eleven Pipers Piping, "+add;
+				break;
+				case 12:day="Twelve";
+				add="twelve Drummers Drumming, "+add;
+				break;
+				
+			
+				
+			}
+			System.out.println("On the "+day+"day of Christmas my true love gave to me:"+add+"and "+verse);
+		}
+	}
+}
+
